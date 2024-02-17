@@ -1,0 +1,68 @@
+.line{
+    height: 4px;
+    max-width: 100px;
+    margin: auto;
+    border-radius: 6px;
+}
+body{
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.blue-gradient{
+
+    background: linear-gradient(to right, #031a33 35%, #2251ff 65%, #042a76 100%);
+    /* background: linear-gradient(to right, #042a76, #007aff); */
+}
+
+.white-gradient {
+    background-color: #ced4da 
+}
+.blue{
+    background-color: #1f0757;
+}
+.green {
+    background-color: #78a842;
+}
+.yellow {
+    background-color: #fdd76e;
+}
+.red {
+    background-color: #e91e63;
+}
+.skyblue {
+    background-color: #2196f3;
+}
+.purple {
+    background-color: #673ab7;
+}
+@media only screen and (min-width:1024px){
+    .services-section{
+        padding:0rem 5rem;
+    }
+}
+.section-heading {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.heading-color{
+    color: #042a76;
+}
+
+.text-color{
+    color: #78a842;
+}
+.services-section, .aboutus-section, .clients-section, .ourwork-section, .contactus-section {
+    min-height: 100vh;
+}

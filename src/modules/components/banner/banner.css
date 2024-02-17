@@ -1,0 +1,24 @@
+.banner {
+    height: calc(100vh - 60px);
+    top: 60px;
+    position: relative;
+    
+}
+.banner-title {
+    max-width: 670px;
+}
+
+.banner-button {
+    color: #5CBF35;
+    background: #fff; 
+    border-radius: 30px; 
+    padding: 1rem 3rem; 
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+
+.content-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

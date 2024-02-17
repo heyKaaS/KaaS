@@ -1,0 +1,68 @@
+{
+  "assets": {
+    "/public/assets/globalstyle.css": {
+      "path": "/1/asset/immutable/s/17058601834184208/public/assets/globalstyle.css",
+      "mimeType": "text/css"
+    },
+    "/public/assets/slds.css": {
+      "path": "/1/asset/immutable/s/17046254179722998/public/assets/slds.css",
+      "mimeType": "text/css"
+    },
+    "/public/assets/aboutus/about_us.png": {
+      "path": "/public/assets/aboutus/about_us.png",
+      "mimeType": "image/png"
+    },
+    "/public/assets/banner/intellectaszip.jpeg": {
+      "path": "/public/assets/banner/intellectaszip.jpeg",
+      "mimeType": "image/jpeg"
+    },
+    "/public/assets/bootstrap.min.css": {
+      "path": "/public/assets/bootstrap.min.css",
+      "mimeType": "text/css"
+    },
+    "/public/assets/favicon.ico": {
+      "path": "/public/assets/favicon.ico",
+      "mimeType": "image/vnd.microsoft.icon"
+    },
+    "/public/assets/navbar/logo.JPG": {
+      "path": "/public/assets/navbar/logo.JPG",
+      "mimeType": "image/jpeg"
+    },
+    "/public/assets/recipes-logo.png": {
+      "path": "/public/assets/recipes-logo.png",
+      "mimeType": "image/png"
+    },
+    "/public/assets/services/consulting.svg": {
+      "path": "/public/assets/services/consulting.svg",
+      "mimeType": "image/svg+xml"
+    },
+    "/public/assets/services/development.svg": {
+      "path": "/public/assets/services/development.svg",
+      "mimeType": "image/svg+xml"
+    },
+    "/public/assets/services/implementation.svg": {
+      "path": "/public/assets/services/implementation.svg",
+      "mimeType": "image/svg+xml"
+    },
+    "/public/assets/services/integration.svg": {
+      "path": "/public/assets/services/integration.svg",
+      "mimeType": "image/svg+xml"
+    },
+    "/public/assets/services/integration_120.png": {
+      "path": "/public/assets/services/integration_120.png",
+      "mimeType": "image/png"
+    },
+    "/public/assets/services/migration.svg": {
+      "path": "/public/assets/services/migration.svg",
+      "mimeType": "image/svg+xml"
+    },
+    "/public/assets/services/support.svg": {
+      "path": "/public/assets/services/support.svg",
+      "mimeType": "image/svg+xml"
+    },
+    "/favicon.ico": {
+      "path": "/favicon.ico",
+      "mimeType": "image/vnd.microsoft.icon"
+    }
+  }
+}

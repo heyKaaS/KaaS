@@ -1,0 +1,78 @@
+<template>
+    <section class="white-gradient aboutus-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 text-center mt-md-5">
+                    <h1 class="text-center section-heading heading-color">{ABOUTUS_DATA.sectionHeading}</h1>
+                    <div class="line blue-gradient mb-5"></div>
+                    <p class="text-center fs-5 mb-5">{ABOUTUS_DATA.description}</p>
+                    <div class="row mb-5">
+                        <template for:each={ABOUTUS_DATA.stats} for:item="stat">
+                            <div class="col-sm-4 mb-3" key={stat.label}>
+                                <div class="box-shadow text-center">
+                                    <h2 class="text-color fs-4">{stat.value}</h2>
+                                    <span class="text-color mb-4 fs-7">{stat.label}</span>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+                    <p class="text-center fs-4 mb-5">{ABOUTUS_DATA.tagline}</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="/public/assets/aboutus/about_us.png" class="img-fluid" loading="lazy" alt="aboutus" width="100%" height="auto">
+                </div>
+            </div>
+        </div>
+        <div class="hero-cards">
+            <div class="shadow-bg-top"></div>
+                <div class="col-1">
+                    <div class="card card-color">
+                            <div class="card--top">
+                                <div class="avatar">
+                                    <img src="https://lemon.io/wp-content/uploads/2023/06/Victoria-B.svg" class="attachment-full size-full wp-post-image lazyloaded" loading="lazy" alt="aboutus" width="46px" height="54" display="flex">
+                                </div>
+                                    <div class="wrapper">
+                                        <div class="name">Ruchika K.</div>
+                                        <div class="description"> Senior Salesforce Developer</div>
+                                        <div class="experience">5+ years of experience</div>
+                                        <div class="rate">72$/h</div>
+                                    </div>
+                            </div>
+                            <div class="card--bottom">
+                                <div class="skill">Apex</div>
+                                <div class="skill">LWC</div>
+                                <div class="skill">Heroku</div>
+                                <div class="skill">NodeJS</div>
+                                <div class="skill">SFMC</div> 
+                                <div class="skill">Write</div>
+                            </div>
+                            <svg class="card-bg" width="100%" height="100%" viewBox="0 0 306 133" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                    </div>
+                    <div class="card card-color">
+                        <div class="card--top">
+                            <div class="avatar">
+                                <img src="https://lemon.io/wp-content/uploads/2023/07/avatars_2.webp" class="attachment-full size-full wp-post-image lazyloaded" loading="lazy" alt="aboutus" width="46px" height="54" display="flex">
+                            </div>
+                                <div class="wrapper">
+                                    <div class="name">Tarun K.</div>
+                                    <div class="description"> Technical Architect</div>
+                                    <div class="experience">6+ years of experience</div>
+                                    <div class="rate">100$/h</div>
+                                </div>
+                        </div>
+                        <div class="card--bottom">
+                            <div class="skill">Apex</div>
+                            <div class="skill">LWC</div>
+                            <div class="skill">Heroku</div>
+                            <div class="skill">NodeJS</div>
+                            <div class="skill">SFMC</div> 
+                            <div class="skill">Laugh</div>
+                        </div>
+                        <svg class="card-bg" width="100%" height="100%" viewBox="0 0 306 133" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                </div>
+                </div>
+        </div>
+    </section>
+</template>

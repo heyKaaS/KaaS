@@ -1,0 +1,25 @@
+<template>
+    <section class="services-section white-gradient">
+        <div class="container-fluid pt-5 pb-5 px-md-5">
+            <div class="text-center pt-5 pb-5">
+                <h1 class="section-heading heading-color">Our Services</h1>
+                <div class="line blue-gradient"></div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-3">
+                <template for:each={servicesData} for:item="serviceData">
+                    <div class="col" key={serviceData.id}>
+                        <div class="card h-100 p-4 rounded-3 services-animation">
+                            <div class={serviceData.className}>
+                                <img src={serviceData.image} class="card-img-top" alt={serviceData.title}>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center fs-4 text-color">{serviceData.title}</h5>
+                                <p class="card-text text-center">{serviceData.description}</p>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </section>
+</template>
